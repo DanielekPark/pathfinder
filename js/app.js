@@ -3,7 +3,7 @@ const input = document.querySelector('.form-control')
 
 form.addEventListener('submit', (e) => {
   e.preventDefault()
-  fetch('https://jsonplaceholder.typicode.com/posts', {
+  fetch('index.py', {
     method: 'POST',
     body: JSON.stringify({
       value: input.value
