@@ -10,7 +10,7 @@ var edgeList = []
 var stfin = []
 
 function initMap() {
-	var bandung ={lat: -6.890345, lng: 107.610403}
+	var losAngeles ={lat: 34.1184, lng: -118.3004}
 	var noPoi = [
 		{
 			featureType: 'poi',
@@ -19,7 +19,7 @@ function initMap() {
 	]
 	map = new google.maps.Map(document.getElementById('map'), {
 		zoom: 17,
-		center: bandung,
+		center: losAngeles,
 		fullscreenControl: false
 	})
 	map.setOptions({ styles: noPoi })
